@@ -16,7 +16,7 @@ public class Day031906 {
 		case 11:
 			System.out.println("11시에는 업무를 처리합니다.");
 		case 12:
-			System.out.println("10시에는 점심 을 먹습니다.");
+			System.out.println("12시에는 점심 을 먹습니다.");
 		}
 		
 		System.out.println(now);
