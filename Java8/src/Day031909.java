@@ -51,9 +51,10 @@ public class Day031909 {
 				break;
 		}
 		
-		if((user == bo && com == ba) || (user == ga && com == bo) || (user == ba && com == ga)) {
+		if((user.equals(bo) && com.equals(ba)) || (user.equals(ga) && com.equals(bo)) 
+				|| (user.equals(ba) && com.equals(ga))) {
 			System.out.print("사람 승! 사람:" + user + ", 컴퓨터:" + com);
-		} else if(user == com) {
+		} else if(user.equals(com)) {
 			System.out.println("비겼습니다 ! 사람:" + user + ", 컴퓨터:" + com);
 		} else {
 			System.out.println("컴퓨터 승 ! 사람:" + user + ", 컴퓨터:" + com);
