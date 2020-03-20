@@ -16,11 +16,11 @@ public class Day31902 {
 		
 		if(inputNumber % 2 ==0) {	//if문을 사용하여 조건이 true일 경우에 실행하는 중괄호 영역을 작성
 			result = "짝수";
-			System.out.println("짝수인지 판별중입니다.")
+			System.out.println("짝수인지 판별중입니다.");
 		}
-		if inputNumber % 2 ! =0){
+		if(inputNumber % 2 != 0){
 			result = "홀수";
-			System.out.println("홀수인지 판별중입니다.")
+			System.out.println("홀수인지 판별중입니다.");
 		}	//이 구문의 값이 false라서
 		System.out.println("입력하신 숫자는 " + inputNumber + "이고, 이 숫자는 " + result + "입니다.");
 		
