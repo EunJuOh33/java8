@@ -10,6 +10,6 @@ public class Day032001 {
 			sum +=i;
 		}
 		
-		System.out.println("1부터 10까지의 합: " + sum);
+		System.out.println("1부터 10까지의 합: " + sum);	//5050
 	}
 }	
