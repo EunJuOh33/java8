@@ -11,7 +11,6 @@ public class Day032403 {
 		int num1, num2, quiz, answer;
 		
 		Long startTime = System.currentTimeMillis();	//long형으로 사용해보자.
-//		System.out.println(startTime);
 		for(int i = 0; i < 10; i++) {		// 10번 반복
 			num1 = (int)(Math.random() * 8) + 2;	//(int)로 강제형변환
 			num2 = rd.nextInt(9) + 1;
