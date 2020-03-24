@@ -1,13 +1,11 @@
 package java8;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Day032405 {
 	public static void main(String[] args) {
 		/* 구구단 게임 10회 완료시 실행 시간을 출력하세요. */
 		Scanner sc = new Scanner(System.in);	//입력은 for문 밖에서 받는다.
-		Random rd = new Random();
 		int num1, num2, quiz, answer;
 		
 		Long startTime = System.currentTimeMillis();
