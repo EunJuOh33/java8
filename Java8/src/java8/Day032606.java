@@ -20,8 +20,8 @@ public class Day032606 {
 		System.out.println();
 		
 		int[][] ary2 = {{10,20,30}, {40}, {50,60}};
-		for(int i=0; i<3; i++) {
-			for(int j=0; j<1; j++) {
+		for(int i=0; i<ary2.length; i++) {
+			for(int j=0; j<ary2[i].length; j++) {	//배열의 길이가 다를 경우에는 length를 사용해야 한다.
 				System.out.println(ary2[i][j]);
 			}
 		}
