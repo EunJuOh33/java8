@@ -20,5 +20,8 @@ public class Day032605 {
 		}
 		
 		arr2 = new int[10];	//다른 객체로 변환이 가능합니다.
+		
+		String str = "안녕하세요";
+		System.out.println(str.length());
 	}
 }
