@@ -86,7 +86,11 @@ public class Day032616 {
 				System.exit(0);
 			}
 			strike = ball = 0;
-			user = new int[3];
+			
+			/* 값을 초기화 시켜줘서 계속 돌아가게 만든다. */
+			for(int i=0; i<user.length; i++) {
+				user[i] = 0;
+			}
 		}
 		sc.close();
 	}
