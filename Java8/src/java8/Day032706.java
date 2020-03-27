@@ -53,7 +53,7 @@ public class Day032706 {
 				}
 			}
 		
-			/* 버블정렬을 사용해서 배열을 오름차순으로 정렬하세요. */
+			/* 선택정렬을 사용해서 배열을 오름차순으로 정렬하세요. */
 			for(int i=0; i<lotto.length; i++) {
 				for(int j=0; j<lotto.length -1; j++) {
 					if(lotto[i] < lotto[j]) {
