@@ -20,6 +20,7 @@ public class Day032705 {
 		}
 		System.out.println();
 		
+		//무작위로 섞기
 		for(int i=0; i<10_000; i++) {
 			int r =(int)(Math.random() * 45);
 			int temp = arr[0];
@@ -27,7 +28,7 @@ public class Day032705 {
 			arr[r] = temp;
 		}
 		
-		//무작위로 섞이 배열 출력하기
+		//무작위로 섞인 배열 출력하기
 		for(int i=0; i<arr.length; i++) {
 			System.out.print(arr[i] + "\t");
 			if((i+1) % 5 == 0) {
