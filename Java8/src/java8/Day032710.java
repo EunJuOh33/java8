@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class Day032710 {
 	public static void main(String[] args) {
 		/*
-		 * 출석20%, 과제20%*/
+		 * 출석20%, 과제20%, 중간고사30%, 기말고사30%하여 100점 만점
+		 * 최대점수 : 출석20, 과제20, 중간고사30, 기말고사30
+		 * 학점 : 90~100:A, 80~89:B, 70~79:C, 60~69:D, 0~59:F
+		 */
 		int a = 0, b = 0, c = 0, d = 0; 
 		char grade = 0;
 		Scanner sc = new Scanner(System.in);
