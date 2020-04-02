@@ -15,12 +15,16 @@ public class TV implements RemoteControl {
 
 	@Override
 	public void setVolume(int volume) {
-		this.volume = volume;
-		System.out.println("볼륨을 " + volume + "으로 변경합니다.");
+		if(volume > MAX_VOLUME) {
+			
+		} else {
+			
+		}
+		System.out.println("TV의 볼륨을 " + volume + "으로 변경합니다.");
 	}
 	
 	@Override
-	public void setMute(boolean mute) {
+	public void setMute(boolean mute) {	//디폴트
 		if (mute)
 			System.out.println("TV를 음소거 상태로 설정합니다.");
 		else
