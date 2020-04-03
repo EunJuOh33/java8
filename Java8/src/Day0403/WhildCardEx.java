@@ -55,6 +55,5 @@ public class WhildCardEx {
 		registerCourse(workerCourse);
 //		registerCourseStudent(workerCourse);
 		registerCourseWorker(workerCourse);
-		
 	}
 }
