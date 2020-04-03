@@ -22,4 +22,9 @@ public class Key {
 //			return number;
 //	}
 	
+	@Override
+	public String toString() {
+		return "Key객체에 저장된 Number: " + number;
+	}
+	
 }
