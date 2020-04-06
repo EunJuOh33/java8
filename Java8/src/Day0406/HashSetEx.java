@@ -42,7 +42,5 @@ public class HashSetEx {
 			System.out.println(str);
 		}
 		System.out.println();
-		
-		Enumeration<String> e = 
 	}
 }
