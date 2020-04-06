@@ -1,7 +1,9 @@
 package Day0406;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ArrayListEx {
 
@@ -61,5 +63,23 @@ public class ArrayListEx {
 		}
 		System.out.println(list.isEmpty());
 		System.out.println(list.size());
+		System.out.println();
+		
+		
+		int[] arr = new int[] {10, 20, 30, 40, 50};
+		for(int num : arr) {
+			if(num == 30) {
+				System.out.println(num == 30);	//true
+			}
+		}
+		System.out.println();
+		
+		List<Integer> arrList = Arrays.asList(10, 20, 30, 40, 50);
+		System.out.println(arrList.contains(30));
+		System.out.println();
+		
+		Integer[] ary = arrList.toArray(new Integer[arrList.size()]);
+		arrList.clear();		//실행시켜보면 clear와 remove는 사용이 안된다는 것을 알 수 있다.
+		System.out.println(arrList.get(0));
 	}
 }
