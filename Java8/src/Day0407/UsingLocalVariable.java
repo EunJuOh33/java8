@@ -9,9 +9,9 @@ public class UsingLocalVariable {
 				
 				//람다식
 				MyFunctionalInterface fi = () -> {
-						//로컬 변수 사용
-						System.out.println("arg: " + arg);	//10
-						System.out.println("localVar: " + localVar + "\n");	//40
+					//로컬 변수 사용
+					System.out.println("arg: " + arg);	//10
+					System.out.println("localVar: " + localVar + "\n");	//40
 				};
 				fi.method();
 		}
