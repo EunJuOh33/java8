@@ -5,6 +5,9 @@ import java.awt.GridLayout;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.ScrollPaneConstants;
@@ -30,6 +33,26 @@ public class JScrollPaneTest extends JFrame {
 		int h = ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS;
 		JScrollPane js = new JScrollPane(jp, v, h);
 		add(js, BorderLayout.CENTER);
+		
+		//메뉴 만들기
+		JMenuBar jmb = new JMenuBar();
+		setJMenuBar(jmb);
+		JMenu jm1 = new JMenu("파일");
+		JMenu jm2 = new JMenu("편집", false);
+		JMenu jm3 = new JMenu("보기", true);
+		JMenuItem item1 = new JMenuItem("새로 만들기");
+		JMenuItem item2 = new JMenuItem("열기");
+		JMenuItem item3 = new JMenuItem("프로그램 종료");
+		jm1.add(item1);
+		jm1.add(item2);
+		jm1.add(item3);
+		jmb.add(jm1);
+		jmb.add(jm2);
+		jmb.add(jm3);
+		item3.addActionListener(e -> {
+			System.exit(0);
+		});
+		
 		
 		setSize(250, 250);
 		setVisible(true);
