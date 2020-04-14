@@ -23,7 +23,7 @@ public class Puzzler extends JPanel {
 		p.setLayout(null);
 		p.makeGame();
 		
-		p.addKeyListener(p.getKeyListener());
+		f.addKeyListener(p.getKeyListener());
 		f.add(p);
 		f.setSize(266, 400);
 		f.setVisible(true);
