@@ -39,7 +39,8 @@ public class Day032616 {
 			user[0] = sc.nextInt();
 		} while(user[0] < 1 || user[0] > 9);
 		
-		do {	//첫 번째 값과 두 번째 값의 중복을 없애주기 위해 do while 사용
+		//첫 번째 값과 두 번째 값의 중복을 없애주기 위해 do while 사용
+		do {
 			if(user[0] == user[1]) {
 				System.out.println("동일한 숫자는 입력할 수 없습니다.");
 			}
